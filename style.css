@@ -515,10 +515,24 @@ display:none ;
  /* ********* MEDIA QUERIES ******** */   
 
 
- @media screen and (max-width: 1509px) {
+ @media screen and (max-width: 1536px) {
   nav li {
     font-size: 1.1rem;
     
+  }
+  .form-grid {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 100px 224px;
+    grid-template-areas:
+      "input1 input2"
+      "textarea textarea";
+    gap: 20px;
+    width: 85%;
+    margin: 30px auto;
+    max-width: 600px;
+    text-transform: capitalize;
+  
   }
 
  }
@@ -782,6 +796,90 @@ display:none ;
   margin: auto 102px;
 
  }
+
+
+
+ }
+
+ @media screen and (max-width: 415px) {
+  .header-left h1 {
+    font-size: 3.2rem;
+   
+
+  }
+  .header-container {
+    display: block;
+    margin: auto  auto 20px ;
+  }
+ 
+  .header-right img {
+    width: 75%;
+  }
+  .button-header a {
+    margin: 1px 10px;
+    height: 80px;
+    
+    
+  }
+  
+
+  .header-projet h2 {
+    font-size: 2.5rem;
+  }
+  .contact-container h2 {
+    font-size: 2.5rem;
+    
+  }
+  .about-me h2 {
+    font-size: 2.5rem;
+    
+  }
+
+  .tout-projet {
+    margin: 40px 5px;
+  }
+
+  .project-container {
+    margin: 35px auto;
+    width: 100%;
+  }
+
+  .right {
+    margin: 35px auto;
+  }
+
+   .about-me {
+    width: 100%;
+  }
+
+  .about-me-container h4 {
+    font-size: 0.9rem;
+  
+  }
+  .about-me-right {
+    width: 100%;
+    margin: auto 10px;
+  }
+  .about-me-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-me-left {
+    margin: 5px auto;
+  }
+  .about-me a {
+    font-size: 1rem;
+  }
+
+  .sub {
+    margin: auto 65px;
+  
+   }
+  
+   .header-projet h4 {
+    width: 120%;
+  
+   }
 
 
  }
