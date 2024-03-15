@@ -867,12 +867,17 @@ display:none ;
   .about-me-left {
     margin: 5px auto;
   }
+  .about-me-left h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .about-me a {
     font-size: 1rem;
   }
 
   .sub {
     margin: auto 65px;
+    display: none;
   
    }
   
@@ -880,6 +885,18 @@ display:none ;
     width: 120%;
   
    }
+
+   .form-grid {
+    display: none;
+   }
+
+   
+
+   .logo-contact i {
+    margin: auto 5px;
+  }
+
+   
 
 
  }
